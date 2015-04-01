@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-guess100",
+  "version": "0.1.0",
+  "description": "A simple game for learning Node.js sockets.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allan-stewart/nodejs-guess100.git"
+  },
+  "keywords": [
+    "node.js",
+    "socket",
+    "game"
+  ],
+  "author": "Allan Stewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allan-stewart/nodejs-guess100/issues"
+  },
+  "homepage": "https://github.com/allan-stewart/nodejs-guess100",
+  "dependencies": {
+    "colors": "^1.0.3"
+  }
+}
