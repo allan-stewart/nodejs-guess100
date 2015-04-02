@@ -24,5 +24,6 @@
   "homepage": "https://github.com/allan-stewart/nodejs-guess100",
   "dependencies": {
     "colors": "^1.0.3"
-  }
+  },
+  "private": true
 }
