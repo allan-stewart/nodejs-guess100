@@ -42,11 +42,17 @@ There are also a couple other rules:
 
 There are two example clients provided:
 
-* `randomClient.js` just makes random guesses every 5 seconds.
-    Usage: `node randomClient.js [name] [serverIP]`
-    * `name` is the client name to send to the server. Defaults to `randomizer`.
-    * `serverIP` is the IP address of the server. Defaults to `localhost`.
-* `binarySearchClient.js` uses a binary search to make guesses.
-    Usage: `node randomClient.js [name] [serverIP]`
-    * `name` is the client name to send to the server. Defaults to `BinarySearch`.
-    * `serverIP` is the IP address of the server. Defaults to `localhost`.
+**randomClient.js** just makes random guesses every 5 seconds.
+
+Usage: `node randomClient.js [name] [serverIP]`
+
+* `name` is the client name to send to the server. Defaults to `randomizer`.
+* `serverIP` is the IP address of the server. Defaults to `localhost`.
+
+
+**binarySearchClient.js** uses a binary search to make guesses.
+
+Usage: `node randomClient.js [name] [serverIP]`
+
+* `name` is the client name to send to the server. Defaults to `BinarySearch`.
+* `serverIP` is the IP address of the server. Defaults to `localhost`.
