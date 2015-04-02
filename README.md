@@ -36,3 +36,17 @@ There are also a couple other rules:
 
 * You can only have one client per IP address.
 * The client will be disconnected if it makes requests too quickly.
+
+
+## Example Clients
+
+There are two example clients provided:
+
+* `randomClient.js` just makes random guesses every 5 seconds.
+    Usage: `node randomClient.js [name] [serverIP]`
+    * `name` is the client name to send to the server. Defaults to `randomizer`.
+    * `serverIP` is the IP address of the server. Defaults to `localhost`.
+* `binarySearchClient.js` uses a binary search to make guesses.
+    Usage: `node randomClient.js [name] [serverIP]`
+    * `name` is the client name to send to the server. Defaults to `BinarySearch`.
+    * `serverIP` is the IP address of the server. Defaults to `localhost`.
